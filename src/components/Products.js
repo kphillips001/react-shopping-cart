@@ -1,5 +1,8 @@
 import React from 'react';
 
+//Contexts
+import ProviderContext from '../contexts/ProductContext'; 
+
 // Components
 import Product from './Product';
 
