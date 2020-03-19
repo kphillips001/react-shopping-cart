@@ -1,6 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, createContext } from 'react';
 import { Route } from 'react-router-dom';
 import data from './data';
+
+//Contexts
+import ProductContext from './contexts/ProductContext';
+import CartContext from './contexts/CartContext';
 
 // Components
 import Navigation from './components/Navigation';
